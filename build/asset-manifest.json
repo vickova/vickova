@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.js": "/static/js/main.ed4ca9e9.js",
+    "static/js/787.d9312eb8.chunk.js": "/static/js/787.d9312eb8.chunk.js",
+    "static/media/aquarium.jpg": "/static/media/aquarium.786249054c642ee53b76.jpg",
+    "static/media/fish2.png": "/static/media/fish2.18cdb5b294b71a69ab68.png",
+    "static/media/fish1.png": "/static/media/fish1.afd25a579848c5e5e7cb.png",
+    "static/media/code03.jpg": "/static/media/code03.59ed0e5eab35f2745092.jpg",
+    "static/media/images (5).jpg": "/static/media/images (5).59ed0e5eab35f2745092.jpg",
+    "static/media/code08.jpg": "/static/media/code08.26f1ad7b7191edb35053.jpg",
+    "static/media/code07.jpg": "/static/media/code07.bb1dcef1b83afd377948.jpg",
+    "static/media/code01.jpg": "/static/media/code01.0128cdc3f76fe58d0029.jpg",
+    "static/media/code02.jpg": "/static/media/code02.153ec29900743e198aee.jpg",
+    "static/media/code05.jpg": "/static/media/code05.0557f5cb4f78bb92fdd3.jpg",
+    "static/media/book.png": "/static/media/book.ba0148b737b91913d6c1.png",
+    "static/media/images (4).jpg": "/static/media/images (4).48a9597669a404c44f4a.jpg",
+    "static/media/code09.jpg": "/static/media/code09.eae43d2f948d25c47ce7.jpg",
+    "static/media/code10.jpg": "/static/media/code10.57292e45ca7b3252db09.jpg",
+    "static/media/images (9).jpeg": "/static/media/images (9).bd393f3f77940838676b.jpeg",
+    "static/media/code06.jpg": "/static/media/code06.88e1c45012327b94c690.jpg",
+    "static/media/code04.jpg": "/static/media/code04.2ec8407edc3c4d93e140.jpg",
+    "static/media/images (8).jpeg": "/static/media/images (8).d0d2550965b135b95eb8.jpeg",
+    "static/media/boy.png": "/static/media/boy.c78a565f9ae740efa690.png",
+    "static/media/google-play.png": "/static/media/google-play.2156965d30af9e3a297c.png",
+    "static/media/dinosaur.png": "/static/media/dinosaur.29433197ea9e4f75ec51.png",
+    "static/media/Instagram.svg": "/static/media/Instagram.878b48b492176ce7e2ffbd0be3ea129e.svg",
+    "static/media/menu.svg": "/static/media/menu.1e9d0a5dd1fe5daef921818dc039f1a1.svg",
+    "index.html": "/index.html",
+    "static/media/twitter.svg": "/static/media/twitter.6f0e061682da7e4dc3a7a3532dce1c17.svg",
+    "static/media/facebook.svg": "/static/media/facebook.ebddf576fcaddc4239468bc458270782.svg",
+    "static/media/exit.svg": "/static/media/exit.00fce0078efb76320811fd25e9aaf9d8.svg",
+    "main.ed4ca9e9.js.map": "/static/js/main.ed4ca9e9.js.map",
+    "787.d9312eb8.chunk.js.map": "/static/js/787.d9312eb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ed4ca9e9.js"
+  ]
+}
