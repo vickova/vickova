@@ -1,0 +1,135 @@
+.before {
+  padding: 20px;
+}
+.iconImage {
+  width: 110px;
+  //   margin-left: 30px;
+}
+
+p {
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.iconImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  .iconImageCover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .sulthana {
+    width: 65px;
+  }
+}
+.remarks {
+  background-color: #f9fafb;
+  margin-top: 30px;
+  .profileCover {
+    blockquote {
+      position: relative;
+      margin: 0.5em;
+      padding: 1.5em 0.5em 0.5em 1.2em;
+    }
+    blockquote:before {
+      position: absolute;
+      font-size: 3em;
+      top: -10px;
+      left: 15px;
+      content: "\201C";
+    }
+    .profile {
+      margin: 2em 2em 2em 1em;
+      display: flex;
+      p {
+        margin: 0.5em;
+        font-weight: bold;
+      }
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  
+  button {
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #140a33;
+  }
+  button:last-child:hover {
+    border: 1px solid #6633ff;
+  }
+  .firstbutton {
+    color: whitesmoke;
+    background-color: #140a33;
+  }
+  .firstbutton:hover {
+    color: white;
+    background-color: #6633ff;
+    border: 1px solid #6633ff;
+  }
+}
+
+.remarkDisplay {
+  display: none;
+}
+
+@media only screen and (min-width: 767px) {
+  .iconImages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    .iconImageCover {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .sulthana {
+      width: 65px;
+    }
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    button {
+      height: 60px;
+      border-radius: 3px;
+      border: 1px solid #140a33;
+      width: 30%;
+      margin: 5px;
+    }
+    .firstbutton {
+      width: 25%;
+      color: whitesmoke;
+      background-color: #140a33;
+    }
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .remarks {
+    background-color: #f9fafb;
+    margin-top: 30px;
+    padding: 20px 100px 20px 100px;
+    p {
+      font-size: 3em;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_check</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.372549 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <polygon id="path-2" points="6 10.78 3.22 8 2.27333333 8.94 6 12.6666667 14 4.66666667 13.06 3.72666667"></polygon>
+        <rect id="path-4" x="0" y="0" width="33.3333333" height="33.3333333"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Intern-Journey-/-Master-/-Bullet-points" transform="translate(-2.000000, -2.000000)">
+            <g id="ic_check" transform="translate(0.000000, -1.000000)" filter="url(#filter-1)">
+                <g>
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <g id="Group" mask="url(#mask-3)">
+                        <g transform="translate(-8.666667, -8.666667)" id="🎨-Color">
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <use id="Black" fill="#000000" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,94 @@
+.Top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #140a33;
+  padding: 20px 10px 20px 10px;
+  right: 0;
+}
+
+.topLogo {
+  max-width: 35%;
+  height: 100%;
+}
+
+.menuAll {
+  display: flex;
+  margin-top: 10px;
+  background-color: #140a33;
+  right: 0;
+}
+
+.menu {
+  text-align: right;
+  height: 100%;
+  right: 0;
+  ul {
+    color: whitesmoke;
+    display: none;
+    li {
+      list-style: none;
+      font-size: 1em;
+      padding: 10px;
+      a {
+        cursor: pointer;
+      }
+      a:hover {
+        color: #6633ff;
+      }
+    }
+  }
+}
+.bars {
+  color: white;
+  width: 50%;
+}
+.open {
+  width: 100%;
+}
+.close {
+  display: none;
+}
+@media only screen and (min-width: 767px) {
+  .open {
+    display: none;
+  }
+  .menuAll {
+    margin-top: 0;
+  }
+  .menu {
+    float: right;
+    text-align: right;
+    height: 100%;
+    ul {
+      color: whitesmoke;
+      display: flex;
+      margin: 0;
+      li {
+        list-style: none;
+        font-size: 1em;
+        padding: 10px;
+        margin: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .Top {
+    padding: 20px 60px 40px 80px;
+  }
+  .menuAll {
+    margin-right: 80px;
+  }
+  .menu {
+    ul {
+      li {
+        font-size: 1.2em;
+        padding-bottom: 20px;
+      }
+      li:hover {
+        border-bottom: 4px solid #6633ff;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.phase {
+  border: 1px solid rgb(224, 222, 222);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 15px 0 15px 0;
+  p {
+    margin: 5px;
+    font-size: 0.7em;
+    text-align: left;
+  }
+  h2 {
+    font-size: 1em;
+    text-align: left;
+  }
+  .realIconCover {
+    display: flex;
+    p {
+      margin: 10px;
+    }
+  }
+  .realIcon {
+    width: 12%;
+  }
+  .checks {
+    display: flex;
+    p {
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,230 @@
+.footer {
+  background-color: #140a33;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  h3 {
+    color: rgb(89, 28, 202);
+    text-align: left;
+  }
+  p {
+    font-size: 0.8em;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .footerCover {
+    .blog {
+      text-align: left;
+      .blogFix {
+        display: flex;
+        p {
+          margin: 5px;
+        }
+        p:last-child {
+          margin-left: 100px;
+        }
+      }
+    }
+    .internshipProgram {
+      h3 {
+        margin-top: 40px;
+      }
+      .internship {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        p {
+          text-align: left;
+        }
+      }
+      .internshipFaq {
+        display: flex;
+        p {
+          margin: 10px 10px 10px 0px;
+        }
+        p:last-child {
+          margin-left: 100px;
+        }
+      }
+    }
+    .freeCourse {
+      h3 {
+        margin: 40px 0 20px 0;
+      }
+      .freeCourseText {
+        display: flex;
+        align-items: center;
+        background-image: url("../images/computerImage.jpeg");
+        background-repeat: no-repeat;
+        height: 200px;
+        width: 80%;
+      }
+    }
+  }
+  .internshipIconAll {
+    margin: 20px 50px 20px 0;
+    .internshipIcon {
+      display: flex;
+      justify-content: right;
+
+      img {
+        width: 8%;
+        margin: 5px;
+      }
+    }
+    p {
+      text-align: right;
+    }
+  }
+}
+.button {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  button {
+    margin-top: 10px;
+    height: 40px;
+    border: 1px solid rgb(190, 189, 189);
+    width: 50%;
+  }
+  .firstbutton {
+    color: whitesmoke;
+    background-color: #140a33;
+  }
+}
+@media only screen and (min-width: 550px) {
+  .footer {
+    .internshipIconAll {
+      margin: 20px 200px 20px 0;
+      .internshipIcon {
+        display: flex;
+        justify-content: right;
+        img {
+          width: 8%;
+          height: 30px;
+          margin: 5px;
+        }
+      }
+      p {
+        text-align: right;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 767px) {
+  .footer {
+    padding-bottom: 0;
+    padding: 40px;
+    .footerCover {
+      display: flex;
+      justify-content: space-between;
+      .blog {
+        margin-top: 40px;
+        .blogFix {
+          display: block;
+          p {
+            margin-top: 25px;
+            text-align: left;
+          }
+          p:last-child {
+            margin-left: 5px;
+          }
+        }
+      }
+      .freeCourse {
+        .freeCourseText {
+          width: 350px;
+        }
+      }
+    }
+    .internshipIconAll {
+      margin: 20px 250px 20px 0;
+      .internshipIcon {
+        display: flex;
+        justify-content: right;
+        img {
+          width: 8%;
+          height: 30px;
+          margin: 5px;
+        }
+      }
+      p {
+        text-align: right;
+      }
+    }
+  }
+  .internshipProgram {
+    .internshipProgramCover {
+      display: flex;
+      .internship {
+        display: block;
+        flex-direction: row;
+      }
+    }
+    .internshipFaq {
+      display: block;
+      margin-left: 20px;
+      margin-top: 10px;
+      p {
+        margin: 20px 10px 10px 10px;
+      }
+      p:last-child {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+  .buttonCover {
+    background-color: white;
+    padding: 0;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+    padding: 0;
+    margin-top: 0;
+    .button {
+      margin-top: 0;
+      button {
+        margin: 0;
+        width: 50%;
+      }
+      button:last-child {
+        background-color: transparent;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .footer {
+    .footerCover {
+      .internshipProgram {
+        .internshipFaq {
+          display: block;
+          p:last-child {
+            padding: 0;
+            margin-left: 40px;
+          }
+        }
+      }
+    }
+    .internshipIconAll {
+      .internshipIcon {
+        float: left;
+        img {
+          width: 15%;
+        }
+      }
+      p {
+        margin-top: 30px;
+      }
+    }
+  }
+  .buttonCover {
+    display: none;
+  }
+}

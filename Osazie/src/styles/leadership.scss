@@ -1,0 +1,91 @@
+.leadership {
+  margin: 50px 0 50px 0;
+  text-align: center;
+  .leadershipAll {
+    .leadershipCover {
+      margin: 20px 0 30px 0;
+      img {
+        width: 60%;
+        height: 150px;
+        border-radius: 5px;
+      }
+      .realLeadership {
+        h3 {
+          font-size: 1em;
+        }
+        p {
+          font-size: 0.8em;
+          margin: 0;
+        }
+        .title {
+          margin: 15px;
+        }
+        a {
+          color: rgb(42, 42, 143);
+          font-size: 0.8em;
+          margin: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .leadership {
+    .leadershipAll {
+      .leadershipCover {
+        img {
+          width: 40%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 659px) {
+  .leadership {
+    .leadershipAll {
+      .leadershipCover {
+        img {
+          width: 30%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .leadership {
+    .leadershipAll {
+      .leadershipCover {
+        display: flex;
+        .realLeadership {
+          text-align: left;
+          .title {
+            text-align: left;
+            margin-left: 0;
+            padding: 0;
+          }
+          p {
+            text-align: left;
+          }
+          a {
+            margin-left: 0;
+          }
+        }
+        img {
+          width: 30%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .leadership {
+    padding: 0 70px 0 70px;
+    .leadershipAll {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

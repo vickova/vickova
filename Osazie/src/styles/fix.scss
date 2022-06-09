@@ -1,0 +1,29 @@
+.fixStart {
+  display: none;
+  background-color: white;
+  border: 1px solid rgb(238, 234, 234);
+  min-height: 5vh;
+
+  ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .fixStart {
+    display: block;
+    padding: 5px 70px 5px 60px;
+    border-bottom: 1px solid rgb(238, 234, 234);
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        list-style: none;
+      }
+      img {
+        width: 10%;
+      }
+    }
+  }
+}
